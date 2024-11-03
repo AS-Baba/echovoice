@@ -1,11 +1,18 @@
+'use client'
+
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 
 export const Navbar = () => {
+  const [isNavOpen, setIsNavOpen] = useState(false)
+  const toggleNav = () => {
+    setIsNavOpen(!isNavOpen)
+  }
+
   return (
     <>
       <nav className="header  sticky top-0 z-50">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-4 px-[100px]">
+        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4  md:px-[120px]">
           <a
             href="#"
             className="flex items-center space-x-3 rtl:space-x-reverse"
@@ -17,11 +24,12 @@ export const Navbar = () => {
                 height="3314"
                 width="3793"
                 /> */}
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white text-[#fff]">
+            <span className="self-center text-2xl font-[700] whitespace-nowrap dark:text-white text-[#fff]">
               PODCASTIN
             </span>
           </a>
           <button
+          onClick={toggleNav}
             data-collapse-toggle="navbar-default"
             type="button"
             className="relative z-50 inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
@@ -49,7 +57,7 @@ export const Navbar = () => {
             className=" w-full md:flex md:items-center md:w-auto transition-all duration-300 ease-in-out"
             id="navbar-default"
           >
-            <ul className="font-medium flex flex-col p-4 md:p-0 mt-4  rounded-lg text-[#a7aab1ff] md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 ">
+            {isNavOpen ? (<ul className="font-medium flex flex-col p-4 md:p-0 mt-4  rounded-lg text-[#a7aab1ff] md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 ">
               <li>
                 <a
                   className="block py-2 px-3 text-white bg-[#0F4A46E5] rounded md:bg-transparent md:text-[#a7aab1ff] hover:text-[#fff] md:p-0"
@@ -88,7 +96,46 @@ export const Navbar = () => {
                   Contact Us
                 </a>
               </li>
-            </ul>
+            </ul>): (<ul className="max-sm:hidden font-medium flex flex-col p-4 md:p-0 mt-4  rounded-lg text-[#a7aab1ff] md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 ">
+              <li>
+                <a
+                  className="block py-2 px-3 text-white bg-[#0F4A46E5] rounded md:bg-transparent md:text-[#a7aab1ff] hover:text-[#fff] md:p-0"
+                  aria-current="page"
+                >
+                  Home
+                </a>
+              </li>
+              <li>
+                <a className="block py-2 px-3 text-[#a7aab1ff] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#fff] md:p-0">
+                  Genre
+                </a>
+              </li>
+              <li>
+                <a className="block py-2 px-3 text-[#a7aab1ff] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#fff] md:p-0">
+                  News
+                </a>
+              </li>
+              <li>
+                <a className="block py-2 px-3 text-[#a7aab1ff] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#fff] md:p-0">
+                  Trending
+                </a>
+              </li>
+              <li>
+                <a className="block py-2 px-3 text-[#a7aab1ff] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#fff] md:p-0">
+                  Events
+                </a>
+              </li>
+              <li>
+                <a className="block py-2 px-3 text-[#a7aab1ff] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#fff] md:p-0">
+                  About Us
+                </a>
+              </li>
+              <li>
+                <a className="block py-2 px-3 text-[#a7aab1ff] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#fff] md:p-0">
+                  Contact Us
+                </a>
+              </li>
+            </ul>)}
           </div>
         </div>
       </nav>
