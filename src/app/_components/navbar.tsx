@@ -1,6 +1,5 @@
 'use client'
 
-import Image from "next/image";
 import React, { useState } from "react";
 
 export const Navbar = () => {
@@ -17,13 +16,7 @@ export const Navbar = () => {
             href="#"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
-            {/* <Image
-                src="/assets/echo-bits-logo.png"
-                className="absolute w-[50px]  h-auto"
-                alt="EchoBitsTech Logo"
-                height="3314"
-                width="3793"
-                /> */}
+           
             <span className="self-center text-2xl font-[700] whitespace-nowrap dark:text-white text-[#fff]">
               PODCASTIN
             </span>
