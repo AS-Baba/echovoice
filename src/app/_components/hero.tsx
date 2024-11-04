@@ -97,7 +97,7 @@ export const Hero = () => {
     },
   ];
 
-  const [topPodcast, setTopPodcast] = useState(topPodcastData);
+  const [topPodcast] = useState(topPodcastData);
 
   return (
     <>
@@ -177,12 +177,20 @@ export const Hero = () => {
 
             <button className="flex justify-center items-center gap-2 font-[700] text-[#a3a3a4ff] border px-[16px] py-[8px] rounded-lg">
               Get started
-              <Image
-                src={"/icons/arrow-top-right.png"}
-                alt=""
-                width={20}
-                height={20}
-              />
+              <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="size-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                  />
+                </svg>
             </button>
 
             <div className="flex flex-col gap-4">
@@ -207,7 +215,7 @@ export const Hero = () => {
               {topPodcast.map((item, index) => {
                 return (
                   <div
-                    className="flex justify-start items-center gap-4 "
+                    className="flex justify-start items-center gap-4 border-b border-[#5c5c5c] p-4"
                     key={index}
                   >
                     <h1 className="text-[#fff] text-2xl font-[700]">
