@@ -1,7 +1,5 @@
 "use client";
-
 import React from "react";
-
 export const BestGenre = () => {
   return (
     <div className="flex flex-col gap-8 w-full h-auto bg-[#ffffff] p-4 md:py-[50px] md:px-[100px]">
@@ -18,27 +16,27 @@ export const BestGenre = () => {
           </p>
           <button className="flex justify-center items-center gap-2 md:w-2/6 font-[700] bg-[#1f1e25ff] text-[#a3a3a4ff] border px-[16px] py-[8px] rounded-lg">
             Read more
-             <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="currentColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
-                  />
-                </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="size-6"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+              />
+            </svg>
           </button>
         </div>
       </div>
 
       <div className="flex flex-col gap-4 w-full p-4 ">
         <div className="flex justify-between  items-center">
-         <div className="flex  gap-2">
+          <div className="flex  gap-2">
             <button className="text-sm md:text-xl text-[#1f1e25ff] font-[700] uppercase border border-[#1f1e25ff] px-[8px] py-[4px]  md:px-[16px] md:py-[8px] rounded-full">
               Finances
             </button>
@@ -54,7 +52,7 @@ export const BestGenre = () => {
           </h1>
         </div>
         <div className="w-full flex justify-start items-center">
-            <h1 className="md:hidden text-sm md:text-xl text-[#1f1e25ff] font-[700] uppercase">
+          <h1 className="md:hidden text-sm md:text-xl text-[#1f1e25ff] font-[700] uppercase">
             Real genre of 2024
           </h1>
         </div>
@@ -88,7 +86,7 @@ export const BestGenre = () => {
           </h1>
         </div>
         <div className="w-full flex justify-start items-center">
-            <h1 className="md:hidden text-sm md:text-xl text-[#1f1e25ff] font-[700] uppercase">
+          <h1 className="md:hidden text-sm md:text-xl text-[#1f1e25ff] font-[700] uppercase">
             Real genre of 2024
           </h1>
         </div>
