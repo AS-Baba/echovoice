@@ -18,7 +18,7 @@ export const Navbar = () => {
           >
            
             <span className="self-center text-2xl font-[700] whitespace-nowrap dark:text-white text-[#fff]">
-              PODCASTIN
+              ECHOVOICE
             </span>
           </a>
           <button

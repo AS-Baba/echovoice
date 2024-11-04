@@ -6,7 +6,7 @@ export const Footer = () => {
     <div className='bg-[#1f1e25] h-auto'>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 max-sm:gap-4 p-[100px]'>
             <div className='flex flex-col gap-2'>
-                <h1 className='text-2xl text-[#fff] font-[700] uppercase'>Podcastin</h1>
+                <h1 className='text-2xl text-[#fff] font-[700] uppercase'>ECHOVOICE</h1>
                 <div className='flex gap-4'>
                     <div className='flex justify-center items-center w-[40px] h-[40px] rounded-full bg-[#35343aff]'>
                         <Image src={'/icons/f.png'} alt='facebook logo' width={12} height={12}/>
