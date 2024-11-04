@@ -244,7 +244,7 @@ export const Hero = () => {
         </div>
 
         <div className="flex justify-center items-center w-full">
-          <div className="absolute bottom-[-280px] md:bottom-[-500px]  w-5/6 h-auto rounded-2xl overflow-hidden">
+          <div className="absolute bottom-[-380px] md:bottom-[-500px]  w-5/6 h-auto rounded-2xl overflow-hidden">
             <Image
               src={"/images/two-mic.jpg"}
               alt="Mic"
