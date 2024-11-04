@@ -178,19 +178,19 @@ export const Hero = () => {
             <button className="flex justify-center items-center gap-2 font-[700] text-[#a3a3a4ff] border px-[16px] py-[8px] rounded-lg">
               Get started
               <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="currentColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
-                  />
-                </svg>
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="size-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                />
+              </svg>
             </button>
 
             <div className="flex flex-col gap-4">
@@ -244,7 +244,7 @@ export const Hero = () => {
         </div>
 
         <div className="flex justify-center items-center w-full">
-          <div className="absolute bottom-[-300px] md:bottom-[-500px]  w-5/6 h-auto rounded-2xl overflow-hidden">
+          <div className="absolute bottom-[-370px] md:bottom-[-500px]  w-5/6 h-auto rounded-2xl overflow-hidden">
             <Image
               src={"/images/two-mic.jpg"}
               alt="Mic"
