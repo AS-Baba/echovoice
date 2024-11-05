@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import React, { useState } from "react";
+import { TwoMic } from "./ui/two-mic";
 
 export const Hero = () => {
   const topPodcastData = [
@@ -101,7 +102,7 @@ export const Hero = () => {
 
   return (
     <>
-      <div className="hero flex flex-col md:justify-center items-start gap-8 w-full h-screen p-4 md:p-[130px] overflow-visible">
+      <div className="hero h-screen flex flex-col md:justify-center items-start gap-8 w-full  p-4 md:p-[130px] overflow-visible">
         <div className="flex flex-col items-center w-full  max-sm:text-[25px] md:text-[100px] text-[#fff] max-sm:font-[700] md:font-[970] uppercase ">
           <div className="flex justify-between items-center gap-4 md:gap-8 w-full h-[75px]">
             <h1 className="">Listen </h1>
@@ -250,21 +251,8 @@ export const Hero = () => {
             </div>
           </div>
         </div>
-
-        <div className="flex justify-center items-center w-full">
-          <div className="absolute bottom-[-280px] md:bottom-[-500px]  w-5/6 h-auto rounded-2xl overflow-hidden">
-            <Image
-              src={"/images/two-mic.jpg"}
-              alt="Mic"
-              width={100}
-              height={100}
-              unoptimized
-              className="w-full md:h-[500px] rounded-[40px]"
-            />
-          </div>
-        </div>
       </div>
-      <div className="w-full h-[200px] md:h-[460px]"></div>
+      <TwoMic></TwoMic>
     </>
   );
 };
