@@ -193,14 +193,22 @@ export const Hero = () => {
               </svg>
             </button>
 
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-2 mt-8">
               <h1 className="text-[#fff] text-sm font-[700]">Supported by</h1>
-              <div className="flex justify-center items-center gap-2 md:font-[700] text-[#a3a3a4ff]">
+              <div className="flex justify-center items-center gap-2 md:font-[700] text-[#a3a3a4ff] text-sm">
                 <Image
                   src={"/icons/youtube.png"}
                   alt="youtube"
                   width={30}
                   height={30}
+                  className="max-sm:hidden"
+                />
+                <Image
+                  src={"/icons/youtube.png"}
+                  alt="youtube"
+                  width={18}
+                  height={18}
+                  className="md:hidden"
                 />
                 Youtube Netflix Disney
               </div>
