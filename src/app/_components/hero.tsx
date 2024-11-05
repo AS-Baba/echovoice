@@ -169,13 +169,13 @@ export const Hero = () => {
         {/* Top podcast of the week */}
         <div className="flex max-sm:flex-col justify-between gap-8 w-full ">
           <div className="flex flex-col justify-start items-start gap-4 w-full md:w-[650px]">
-            <p className="text-[20px] text-[#88888aff] font-[500]">
+            <p className="text-sm md:text-[20px] text-[#88888aff] font-[500]">
               Podcastin is an easy and powerful way to create, promote and
               monitize your podcast. Everything you need for a successfull
               podcast.{" "}
             </p>
 
-            <button className="flex justify-center items-center gap-2 font-[700] text-[#a3a3a4ff] border px-[16px] py-[8px] rounded-lg">
+            <button className="flex justify-center items-center gap-2 max-sm:w-[120px] max-sm:h-[30px] md:font-[700] text-[#a3a3a4ff] text-sm border md:px-[16px] md:py-[8px] rounded-lg">
               Get started
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -194,8 +194,8 @@ export const Hero = () => {
             </button>
 
             <div className="flex flex-col gap-4">
-              <h1 className="text-[#fff] font-[700]">Supported by</h1>
-              <div className="flex justify-center items-center gap-2 font-[700] text-[#a3a3a4ff]">
+              <h1 className="text-[#fff] text-sm font-[700]">Supported by</h1>
+              <div className="flex justify-center items-center gap-2 md:font-[700] text-[#a3a3a4ff]">
                 <Image
                   src={"/icons/youtube.png"}
                   alt="youtube"
@@ -208,7 +208,7 @@ export const Hero = () => {
           </div>
           {/* Top podcast */}
           <div className="flex flex-col justify-start items-start gap-4 w-full md:w-[500px]">
-            <h1 className="text-[#fff] text-2xl font-[700]">
+            <h1 className="text-[#fff] text-sm md:text-2xl font-[700]">
               Top Podcast of the week
             </h1>
             <div className="flex flex-col gap-4 w-full h-[170px] overflow-y-scroll p-4 ">
@@ -218,7 +218,7 @@ export const Hero = () => {
                     className="flex justify-start items-center gap-4 border-b border-[#5c5c5c] p-4"
                     key={index}
                   >
-                    <h1 className="text-[#fff] text-2xl font-[700]">
+                    <h1 className="text-[#fff] text-sm md:text-2xl md:font-[700]">
                       {index + 1}.
                     </h1>
                     <Image
@@ -229,10 +229,10 @@ export const Hero = () => {
                       className="rounded-lg"
                     />
                     <div>
-                      <h1 className="text-[#fff] text-lg font-[500] tracking-wide">
+                      <h1 className="text-[#fff] text-sm md:text-lg font-[500] tracking-wide">
                         {item.title}
                       </h1>
-                      <p className="text-[#a3a3a4ff] text-lg tracking-wide">
+                      <p className="text-[#a3a3a4ff] text-sm md:text-lg tracking-wide">
                         #{item.host}
                       </p>
                     </div>
