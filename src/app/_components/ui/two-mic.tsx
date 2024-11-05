@@ -5,7 +5,7 @@ export const TwoMic = () => {
   return (
     <>
     <div className='empty-banner w-full h-[100px] md:h-[200px]'></div>
-    <div className="flex justify-center items-center w-full relative bottom-[100px] md:bottom-[250px]">
+    <div className="flex justify-center items-center w-full relative max-sm:bottom-[100px] bottom-[250px]">
           <div className="w-5/6 h-auto rounded-2xl overflow-hidden ">
             <Image
               src={"/images/two-mic.jpg"}

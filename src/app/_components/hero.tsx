@@ -115,7 +115,7 @@ export const Hero = () => {
                 className="h-[70px] "
               />
             </div>
-            <div className="md:hidden sm:hidden flex justify-center items-basesline h-[50px] md:h-[70px]  ">
+            <div className="md:hidden  flex justify-center items-basesline h-[50px] md:h-[70px]  ">
               <Image
                 src={"/icons/mic1.png"}
                 alt="..."
@@ -134,7 +134,7 @@ export const Hero = () => {
                 className="h-[70px]"
               />
             </div>
-            <div className="md:hidden sm:hidden flex justify-center items-basesline h-[50px] md:h-[70px]  ">
+            <div className="md:hidden  flex justify-center items-basesline h-[50px] md:h-[70px]  ">
               <Image
                 src={"/icons/mic2.png"}
                 alt="..."
@@ -155,7 +155,7 @@ export const Hero = () => {
                 className="h-[70px]"
               />
             </div>
-            <div className="md:hidden sm:hidden flex justify-center items-basesline h-[40px] ">
+            <div className="md:hidden flex justify-center items-basesline h-[40px] ">
               <Image
                 src={"/icons/mic3.png"}
                 alt="..."
