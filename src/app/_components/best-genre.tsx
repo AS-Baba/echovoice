@@ -4,32 +4,32 @@ export const BestGenre = () => {
   return (
     <div className="flex flex-col gap-8 w-full h-auto bg-[#ffffff] p-4 md:py-[50px] md:px-[100px]">
       <div className="flex gap-4 max-sm:flex-col">
-        <div className=" w-full md:w-3/6 text-[20px] md:text-[70px] text-[#1f1e25ff] font-[950] ">
+        <div className=" w-full md:w-3/6 text-sm md:text-[70px] text-[#1f1e25ff] font-[950] ">
           <h1 className="md:leading-[80px] uppercase">
             Best Genre of the week
           </h1>
         </div>
         <div className="flex flex-col gap-8 w-full md:w-3/6">
-          <p className="text-[#1f1e25ff] text-[20px]">
+          <p className="text-[#1f1e25ff] text-sm md:text-[20px]">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore ut
             nesciunt tempore nulla corrupti quam obcaecati ?
           </p>
-          <button className="flex justify-center items-center gap-2 md:w-2/6 font-[700] bg-[#1f1e25ff] text-[#a3a3a4ff] border px-[16px] py-[8px] rounded-lg">
+        <button className="flex justify-center items-center gap-2 w-[125px] max-sm:h-[35px] md:w-2/6 font-[700] text-[#a3a3a4ff] border  md:px-[16px] md:py-[8px] rounded-lg">
             Read more
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="size-6"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
-              />
-            </svg>
+             <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="size-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                  />
+                </svg>
           </button>
         </div>
       </div>
@@ -61,7 +61,7 @@ export const BestGenre = () => {
             <h1 className="text-xl md:text-[56px] text-[#fff] font-[950] uppercase md:leading-[65px]">
               2024?, end of the world?
             </h1>
-            <p className="text-xl text-[#fff]">
+            <p className="text-sm md:text-xl text-[#fff]">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi,
               aut.
             </p>
@@ -95,7 +95,7 @@ export const BestGenre = () => {
             <h1 className="text-xl md:text-[56px] text-[#fff] font-[950] uppercase md:leading-[65px]">
               How to <br /> manage money
             </h1>
-            <p className="text-xl text-[#fff]">
+            <p className="text-sm md:text-xl text-[#fff]">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi,
               aut.
             </p>
