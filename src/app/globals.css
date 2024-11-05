@@ -117,6 +117,48 @@ div.empty-banner {
   background: linear-gradient(45deg,rgb(54, 53, 58),#1f1e25ff);
 }
 @media screen and (max-width: 768px) {
+/* News of the week */
+  div.news-of-the-week-top-left {
+   
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
+  div.news-of-the-week-top-left div {
+    background-color: #ffffff9d;
+  }
+
+  div.news-of-the-week-bottom-left {
+    
+    border-radius:0;
+  }
+
+  div.news-of-the-week-bottom-left div {
+    background-color: #ffffff9d;
+    border-radius: 0;
+  }
+
+  div.news-of-the-week-top-right {
+    
+    border-radius:0;
+  }
+
+  div.news-of-the-week-top-right div {
+    background-color: #ffffff9d;
+  }
+
+  div.news-of-the-week-bottom-right {
+    
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+
+  div.news-of-the-week-bottom-right div {
+    background-color: #ffffff9d;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+
   /* Genre banners */
   div.genre-banner1 {
     background: radial-gradient(circle at top left, #98989b  , #1f1e25ff);

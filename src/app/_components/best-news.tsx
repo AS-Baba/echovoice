@@ -38,38 +38,38 @@ export const BestNews = () => {
         <div className="flex flex-col gap-4 w-full md:w-2/6 ">
           <div className="flex flex-col justify-end news-of-the-week-top-left ">
             <div className="relative bottom-0 w-full md:h-[150px] p-5">
-              <h1 className="text-xl md:text-2xl font-[700] uppercase">
+              <h1 className="text-sm md:text-2xl font-[700] uppercase">
                 Psychology of money
               </h1>
-              <p>
+              <p className="max-sm:text-sm">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Doloribus corrupti eligendi neque, molestiae possimus maxime!
               </p>
-              <h1 className="font-[700]">
+              <h1 className="text-sm font-[700]">
                 Speaker: Dr Dan of the Infinte Minds.inc
               </h1>
             </div>
           </div>
           <div className="flex flex-col justify-end news-of-the-week-bottom-left ">
             <div className="relative bottom-0 w-full md:h-[150px] p-5">
-              <h1 className="text-xl md:text-2xl font-[700] uppercase">
+              <h1 className="text-sm md:text-2xl font-[700] uppercase">
                 The top 1% of the top 1%
               </h1>
-              <p>
+              <p className="max-sm:text-sm">
                 The top 1% of the top 1%, the ones who play god without permission.
                 Doloribus corrupti eligendi neque, molestiae possimus maxime!
               </p>
-              <h1 className="font-[700]">Speaker: Dr Dan</h1>
+              <h1 className="text-sm font-[700]">Speaker: Dr Dan</h1>
             </div>
           </div>
         </div>
         <div className="flex flex-col gap-4 w-full md:w-4/6 h-auto ">
           <div className="flex flex-col justify-end news-of-the-week-top-right ">
             <div className="relative bottom-0 w-full md:h-[150px] p-5">
-              <h1 className="text-xl md:text-2xl font-[700] uppercase">
+              <h1 className="text-sm md:text-2xl font-[700] uppercase">
                 Streamlined Financial Audits and Customer Management in One Platform
               </h1>
-              <p>
+              <p className="max-sm:text-sm">
                 Stohb brings financial management and customer data together in one powerful plartform...
               </p>
               
@@ -77,14 +77,14 @@ export const BestNews = () => {
           </div>
           <div className="flex flex-col justify-end news-of-the-week-bottom-right ">
             <div className="relative bottom-0 w-full md:h-[150px] p-5">
-              <h1 className="text-xl md:text-2xl font-[700] uppercase">
+              <h1 className="text-sm md:text-2xl font-[700] uppercase">
                 Stuff You Should Know
               </h1>
-              <p>
+              <p className="max-sm:text-sm">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Doloribus corrupti eligendi neque, molestiae possimus maxime!
               </p>
-              <h1 className="font-[700]">
+              <h1 className="text-sm font-[700]">
                 Speaker: Dr Dan of the Infinte Minds.inc
               </h1>
             </div>
