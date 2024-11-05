@@ -223,7 +223,7 @@ export const Hero = () => {
               {topPodcast.map((item, index) => {
                 return (
                   <div
-                    className="flex justify-start items-center gap-4 border-b border-[#5c5c5c] p-4"
+                    className="flex justify-start items-center gap-4 border-b border-[#5c5c5c] py-2"
                     key={index}
                   >
                     <h1 className="text-[#fff] text-sm md:text-2xl md:font-[700]">
