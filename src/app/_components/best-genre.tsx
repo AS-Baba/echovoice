@@ -47,7 +47,7 @@ export const BestGenre = () => {
               Hobby
             </button>
           </div>
-          <h1 className="max-sm:hidden text-sm md:text-xl text-[#1f1e25ff] font-[700] uppercase">
+          <h1 className="max-sm:hidden sm:hidden text-sm md:text-xl text-[#1f1e25ff] font-[700] uppercase">
             Real genre of 2024
           </h1>
         </div>
@@ -81,12 +81,12 @@ export const BestGenre = () => {
               Hobby
             </button>
           </div>
-          <h1 className="max-sm:hidden text-sm md:text-xl text-[#1f1e25ff] font-[700] uppercase">
+          <h1 className="max-sm:hidden sm:hidden text-sm md:text-xl text-[#1f1e25ff] font-[700] uppercase">
             Real genre of 2024
           </h1>
         </div>
         <div className="w-full flex justify-start items-center">
-          <h1 className="md:hidden text-sm md:text-xl text-[#1f1e25ff] font-[700] uppercase">
+          <h1 className="md:hidden sm:hidden text-sm md:text-xl text-[#1f1e25ff] font-[700] uppercase">
             Real genre of 2024
           </h1>
         </div>
