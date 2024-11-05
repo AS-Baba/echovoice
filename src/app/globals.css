@@ -113,6 +113,9 @@ div.genre-banner3 {
   border-bottom-right-radius: 100px;
 }
 
+div.empty-banner {
+  background: linear-gradient(45deg,rgb(54, 53, 58),#1f1e25ff);
+}
 @media screen and (max-width: 768px) {
   /* Genre banners */
   div.genre-banner1 {
