@@ -106,7 +106,7 @@ export const Hero = () => {
         <div className="flex flex-col items-center w-full  max-sm:text-[25px] md:text-[100px] text-[#fff] max-sm:font-[700] md:font-[970] uppercase ">
           <div className="flex justify-between items-center gap-4 md:gap-8 w-full h-[75px]">
             <h1 className="">Listen </h1>
-            <div className="max-sm:hidden flex justify-center items-basesline md:h-[70px] max-sm:w-auto ">
+            <div className="max-sm:hidden sm:hidden flex justify-center items-basesline md:h-[70px] max-sm:w-auto ">
               <Image
                 src={"/icons/mic1.png"}
                 alt="..."
@@ -115,7 +115,7 @@ export const Hero = () => {
                 className="h-[70px] "
               />
             </div>
-            <div className="md:hidden flex justify-center items-basesline h-[50px] md:h-[70px]  ">
+            <div className="md:hidden sm:hidden flex justify-center items-basesline h-[50px] md:h-[70px]  ">
               <Image
                 src={"/icons/mic1.png"}
                 alt="..."
@@ -125,7 +125,7 @@ export const Hero = () => {
               />
             </div>
             <h1>new</h1>
-            <div className="max-sm:hidden flex justify-center items-basesline h-[50px] md:h-[70px]  ">
+            <div className="max-sm:hidden sm:hidden flex justify-center items-basesline h-[50px] md:h-[70px]  ">
               <Image
                 src={"/icons/mic2.png"}
                 alt="..."
@@ -134,7 +134,7 @@ export const Hero = () => {
                 className="h-[70px]"
               />
             </div>
-            <div className="md:hidden flex justify-center items-basesline h-[50px] md:h-[70px]  ">
+            <div className="md:hidden sm:hidden flex justify-center items-basesline h-[50px] md:h-[70px]  ">
               <Image
                 src={"/icons/mic2.png"}
                 alt="..."
@@ -146,7 +146,7 @@ export const Hero = () => {
           </div>
           <div className="flex justify-between items-center gap-4 md:gap-8 w-full">
             <h1> podcast</h1>
-            <div className="max-sm:hidden flex justify-center items-basesline h-[70px] ">
+            <div className="max-sm:hidden sm:hidden flex justify-center items-basesline h-[70px] ">
               <Image
                 src={"/icons/mic3.png"}
                 alt="..."
@@ -155,7 +155,7 @@ export const Hero = () => {
                 className="h-[70px]"
               />
             </div>
-            <div className="md:hidden flex justify-center items-basesline h-[40px] ">
+            <div className="md:hidden sm:hidden flex justify-center items-basesline h-[40px] ">
               <Image
                 src={"/icons/mic3.png"}
                 alt="..."
@@ -202,7 +202,7 @@ export const Hero = () => {
                   alt="youtube"
                   width={30}
                   height={30}
-                  className="max-sm:hidden"
+                  className="max-sm:hidden sm:hidden"
                 />
                 <Image
                   src={"/icons/youtube.png"}
