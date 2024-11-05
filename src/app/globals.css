@@ -168,7 +168,7 @@ div.empty-banner {
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
   /* News of the week */
   div.news-of-the-week-top-left {
     border-top-left-radius: 20px;
