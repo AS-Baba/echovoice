@@ -1,12 +1,12 @@
-'use client'
+"use client";
 
 import React, { useState } from "react";
 
 export const Navbar = () => {
-  const [isNavOpen, setIsNavOpen] = useState(false)
+  const [isNavOpen, setIsNavOpen] = useState(false);
   const toggleNav = () => {
-    setIsNavOpen(!isNavOpen)
-  }
+    setIsNavOpen(!isNavOpen);
+  };
 
   return (
     <>
@@ -16,13 +16,12 @@ export const Navbar = () => {
             href="#"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
-           
             <span className="self-center text-2xl font-[700] whitespace-nowrap dark:text-white text-[#fff]">
               ECHOVOICE
             </span>
           </a>
           <button
-          onClick={toggleNav}
+            onClick={toggleNav}
             data-collapse-toggle="navbar-default"
             type="button"
             className="relative z-50 inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
@@ -50,85 +49,89 @@ export const Navbar = () => {
             className=" w-full md:flex md:items-center md:w-auto transition-all duration-300 ease-in-out"
             id="navbar-default"
           >
-            {isNavOpen ? (<ul className="font-medium flex flex-col p-4 md:p-0 mt-4  rounded-lg text-[#a7aab1ff] md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 ">
-              <li>
-                <a
-                  className="block py-2 px-3 text-white bg-[#0F4A46E5] rounded md:bg-transparent md:text-[#a7aab1ff] hover:text-[#fff] md:p-0"
-                  aria-current="page"
-                >
-                  Home
-                </a>
-              </li>
-              <li>
-                <a className="block py-2 px-3 text-[#a7aab1ff] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#fff] md:p-0">
-                  Genre
-                </a>
-              </li>
-              <li>
-                <a className="block py-2 px-3 text-[#a7aab1ff] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#fff] md:p-0">
-                  News
-                </a>
-              </li>
-              <li>
-                <a className="block py-2 px-3 text-[#a7aab1ff] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#fff] md:p-0">
-                  Trending
-                </a>
-              </li>
-              <li>
-                <a className="block py-2 px-3 text-[#a7aab1ff] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#fff] md:p-0">
-                  Events
-                </a>
-              </li>
-              <li>
-                <a className="block py-2 px-3 text-[#a7aab1ff] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#fff] md:p-0">
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a className="block py-2 px-3 text-[#a7aab1ff] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#fff] md:p-0">
-                  Contact Us
-                </a>
-              </li>
-            </ul>): (<ul className="max-sm:hidden font-medium flex flex-col p-4 md:p-0 mt-4  rounded-lg text-[#a7aab1ff] md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 ">
-              <li>
-                <a
-                  className="block py-2 px-3 text-white bg-[#0F4A46E5] rounded md:bg-transparent md:text-[#a7aab1ff] hover:text-[#fff] md:p-0"
-                  aria-current="page"
-                >
-                  Home
-                </a>
-              </li>
-              <li>
-                <a className="block py-2 px-3 text-[#a7aab1ff] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#fff] md:p-0">
-                  Genre
-                </a>
-              </li>
-              <li>
-                <a className="block py-2 px-3 text-[#a7aab1ff] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#fff] md:p-0">
-                  News
-                </a>
-              </li>
-              <li>
-                <a className="block py-2 px-3 text-[#a7aab1ff] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#fff] md:p-0">
-                  Trending
-                </a>
-              </li>
-              <li>
-                <a className="block py-2 px-3 text-[#a7aab1ff] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#fff] md:p-0">
-                  Events
-                </a>
-              </li>
-              <li>
-                <a className="block py-2 px-3 text-[#a7aab1ff] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#fff] md:p-0">
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a className="block py-2 px-3 text-[#a7aab1ff] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#fff] md:p-0">
-                  Contact Us
-                </a>
-              </li>
-            </ul>)}
+            {isNavOpen ? (
+              <ul className="font-medium flex flex-col p-4 md:p-0 mt-4  rounded-lg text-[#a7aab1ff] md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 ">
+                <li>
+                  <a
+                    className="block py-2 px-3 text-white bg-[#0F4A46E5] rounded md:bg-transparent md:text-[#a7aab1ff] hover:text-[#fff] md:p-0"
+                    aria-current="page"
+                  >
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a className="block py-2 px-3 text-[#a7aab1ff] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#fff] md:p-0">
+                    Genre
+                  </a>
+                </li>
+                <li>
+                  <a className="block py-2 px-3 text-[#a7aab1ff] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#fff] md:p-0">
+                    News
+                  </a>
+                </li>
+                <li>
+                  <a className="block py-2 px-3 text-[#a7aab1ff] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#fff] md:p-0">
+                    Trending
+                  </a>
+                </li>
+                <li>
+                  <a className="block py-2 px-3 text-[#a7aab1ff] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#fff] md:p-0">
+                    Events
+                  </a>
+                </li>
+                <li>
+                  <a className="block py-2 px-3 text-[#a7aab1ff] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#fff] md:p-0">
+                    About Us
+                  </a>
+                </li>
+                <li>
+                  <a className="block py-2 px-3 text-[#a7aab1ff] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#fff] md:p-0">
+                    Contact Us
+                  </a>
+                </li>
+              </ul>
+            ) : (
+              <ul className="max-sm:hidden sm:hidden font-medium flex flex-col p-4 md:p-0 mt-4  rounded-lg text-[#a7aab1ff] md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 ">
+                <li>
+                  <a
+                    className="block py-2 px-3 text-white bg-[#0F4A46E5] rounded md:bg-transparent md:text-[#a7aab1ff] hover:text-[#fff] md:p-0"
+                    aria-current="page"
+                  >
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a className="block py-2 px-3 text-[#a7aab1ff] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#fff] md:p-0">
+                    Genre
+                  </a>
+                </li>
+                <li>
+                  <a className="block py-2 px-3 text-[#a7aab1ff] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#fff] md:p-0">
+                    News
+                  </a>
+                </li>
+                <li>
+                  <a className="block py-2 px-3 text-[#a7aab1ff] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#fff] md:p-0">
+                    Trending
+                  </a>
+                </li>
+                <li>
+                  <a className="block py-2 px-3 text-[#a7aab1ff] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#fff] md:p-0">
+                    Events
+                  </a>
+                </li>
+                <li>
+                  <a className="block py-2 px-3 text-[#a7aab1ff] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#fff] md:p-0">
+                    About Us
+                  </a>
+                </li>
+                <li>
+                  <a className="block py-2 px-3 text-[#a7aab1ff] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#fff] md:p-0">
+                    Contact Us
+                  </a>
+                </li>
+              </ul>
+            )}
           </div>
         </div>
       </nav>
