@@ -3,13 +3,13 @@ import React from "react";
 export const BestNews = () => {
   return (
     <div className="flex flex-col gap-8 w-full h-auto bg-[#1f1e25ff] p-4 md:py-[50px] md:px-[100px]">
-      <div className="flex max-sm:flex-col">
+      <div className="flex max-sm:flex-col max-sm:gap-4">
         <div className=" w-full md:w-3/6 text-sm md:text-[70px] text-[#fff] font-[950] ">
           <h1 className="md:leading-[80px] uppercase">
             Best news of this week
           </h1>
         </div>
-        <div className="flex flex-col gap-8 w-full md:w-3/6">
+        <div className="flex flex-col gap-4 md:gap-8 w-full md:w-3/6">
           <p className="text-[#fff] text-sm md:text-[20px]">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore ut
             nesciunt tempore nulla corrupti quam obcaecati ?
