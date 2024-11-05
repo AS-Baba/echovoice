@@ -168,8 +168,8 @@ div.empty-banner {
   }
 }
 
-@media screen and (min-width: 1024px) {
-  /* News of the week */
+/* News of the week */
+/* @media screen and (max-width: 1024px) {
   div.news-of-the-week-top-left {
     border-top-left-radius: 20px;
   }
@@ -201,4 +201,4 @@ div.empty-banner {
   div.news-of-the-week-bottom-right div {
     border-bottom-right-radius: 20px;
   }
-}
+} */
