@@ -7,13 +7,13 @@ import { Footer } from "./_components/footer";
 
 export default function Home() {
   return (
-   <>
-   <Navbar></Navbar>
-   <Hero></Hero>
-   <BestNews></BestNews>
-   <TopPodcast></TopPodcast>
-   <BestGenre></BestGenre>
-   <Footer></Footer>
-   </>
+    <>
+      <Navbar />
+      <Hero />
+      <BestNews />
+      <TopPodcast />
+      <BestGenre />
+      <Footer />
+    </>
   );
 }
